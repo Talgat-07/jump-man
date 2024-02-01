@@ -1,6 +1,6 @@
 import React from "react";
 import FirstSection from "./FirstSection";
-import "../../style/Main.sass";
+import "../../css/Main.css";
 import SecondSection from "./SecondSection";
 
 const Main = () => {

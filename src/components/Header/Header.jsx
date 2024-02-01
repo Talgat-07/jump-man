@@ -1,5 +1,5 @@
 import React from "react";
-import "../../style/Header.sass";
+import "../../css/Header.css";
 import LogoHeader from "./LogoHeader";
 import NavHeader from "./NavHeader";
 import BlockHeader from "./BlockHeader";
