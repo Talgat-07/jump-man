@@ -1,0 +1,129 @@
+main
+  display: flex
+  flex-direction: column
+  align-items: flex-end
+  justify-content: space-between
+
+  .firstSection
+    width: 46%
+    display: flex
+    justify-content: space-between
+
+    .firstSection__one
+      margin-top: 410px
+      display: flex
+      align-items: flex-end
+      justify-content: center
+      gap: 3px
+
+      .one__left
+        p
+          font-size: 36px
+          font-weight: 400
+          line-height: 43px
+          color: #e70000
+
+      .one__right
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+
+        .one__top
+          button
+            color: #fff
+            font-family: 'Roboto Condensed', sans-serif
+            font-weight: 400
+            font-size: 12px
+            line-height: 14.06px
+            padding: 7.5px 15px 7.5px 15px
+            border-radius: 9.75px
+            background: #eb0000
+
+        .one__bottom
+          p
+            font-size: 18px
+            color: #fff
+            letter-spacing: 3.3px
+
+            strong
+              letter-spacing: 2px
+
+    .firstSection__two
+      ul
+        cursor: default
+        margin-top: 250px
+        margin-right: 48px
+
+        li
+          font-size: 2.4em
+          color: #fff
+          line-height: 22px
+
+          &:nth-child(1)
+            color: rgba(255, 255, 255, 0.2)
+
+          &:nth-child(2)
+            color: rgba(255, 255, 255, 0.4)
+
+          &:nth-child(3)
+            color: rgba(255, 255, 255, 0.6)
+
+          &:nth-child(4)
+            color: rgba(255, 255, 255, 0.8)
+
+
+  .secondSection
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-top: 60px
+    padding-left: 10px
+    padding-right: 80px
+
+    .secondSection__one
+      p
+        margin-left: 65px
+        font-size: 13px
+        font-weight: 700
+        color: #fff
+
+      div
+        display: grid
+        grid-template-columns: 120.75px 113.25px 7.5px 113.25px 120.75px
+
+    .secondSection__two
+      margin-right: 75px
+      display: flex
+      gap: 33px
+
+      button
+        cursor: pointer
+        font-size: 15px
+        font-weight: 800
+        border: 1px solid #fff
+
+      button:nth-child(1)
+        background: #fff
+        padding: 15px 22.5px
+        color: #000
+
+      button:nth-child(2)
+        background: none
+        padding: 15px 30px
+        color: #fff
+
+    .secondSection__three
+      p
+        color: #fff
+
+        &:nth-child(1)
+          font-size: 14px
+          font-weight: 700
+          letter-spacing: 3px
+
+        &:nth-child(2)
+          width: 333px
+          font-size: 13px
+          font-weight: 400
+          font-family: 'Roboto', sans-serif
