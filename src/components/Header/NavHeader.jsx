@@ -5,19 +5,19 @@ const NavHeader = () => {
     <nav className="nav">
       <ul>
         <li>
-          <a href="#">H O M E</a>
+          <button>H O M E</button>
         </li>
         <li>
-          <a href="#">M A N</a>
+          <button>M A N</button>
         </li>
         <li>
-          <a href="#">W O M A N</a>
+          <button>W O M A N</button>
         </li>
         <li>
-          <a href="#">K I D S</a>
+          <button>K I D S</button>
         </li>
         <li>
-          <a href="#">S A L E</a>
+          <button>S A L E</button>
         </li>
       </ul>
     </nav>
