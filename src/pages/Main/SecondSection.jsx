@@ -1,7 +1,7 @@
 import React from "react";
-import bootOne from "../../images/boot-1.svg";
-import bootTwo from "../../images/boot-2.svg";
-import bootThree from "../../images/boot-3.svg";
+import bootOne from "../../images/boot1.png";
+import bootTwo from "../../images/boot2.png";
+import bootThree from "../../images/boot3.png";
 
 const SecondSection = () => {
   return (
